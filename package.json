@@ -1,0 +1,36 @@
+{
+  "version": "1.0.0",
+  "author": "MakeAwesomeHappen",
+  "private": true,
+  "dependencies": {},
+  "keywords": [
+    "pebble-app"
+  ],
+  "pebble": {
+    "sdkVersion": "3",
+    "resources": {
+      "media": []
+    },
+    "projectType": "native",
+    "uuid": "d4ec0006-14e6-43b7-aaa8-ba0a01ffeeab",
+    "messageKeys": {
+      "message": 0
+    },
+    "enableMultiJS": false,
+    "displayName": "hello-pebble",
+    "watchapp": {
+      "onlyShownOnCommunication": false,
+      "hiddenApp": false,
+      "watchface": false
+    },
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite",
+      "emery"
+    ],
+    "capabilities": []
+  },
+  "name": "hello-pebble"
+}
